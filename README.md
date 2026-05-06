@@ -5,7 +5,7 @@ A modern, responsive personal portfolio built to showcase my frontend developmen
 
 # Live Demo
 
-
+https://sisirsen-portfolio.vercel.app/
 
 # About This Project
 
@@ -14,12 +14,8 @@ This portfolio highlights my journey as a developer, featuring real-world projec
 
 # Tech Stack
 
-* HTML
-* CSS(Tailwind)
-* JavaScript
 * React Js
 
+# Author
 
-# What I Learned
-
-
+*Sisir Sen*
