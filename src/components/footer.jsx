@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#05091A] text-white px-6 py-6">
      
-      <div className="flex justify-between w-full  ">
+      <div className="flex px-6 py-4">
        
         <div>
           <h1
@@ -21,11 +21,11 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex items-center text-sky-500">   
+        <div className="flex items-center ml-auto text-sky-500">   
           <div className="flex gap-5">
-            <button className="cursor-pointer h-6 w-6"><img src={icons.gitButton} alt="githubButton" /></button>
-            <button className="cursor-pointer h-5 w-4"><img src={icons.linkedinButton} alt="linkedInButton" /></button>
-            <button className="cursor-pointer h-7 w-7"><img src={icons.xButton} alt="XButton" /></button>
+            <button className="cursor-pointer h-6 w-6"> <a href="https://github.com/sisirsen"></a> <img src={icons.gitButton} alt="githubButton" /></button>
+            <button className="cursor-pointer h-5 w-4"> <a href="www.linkedin.com/in/sisir-sen"></a><img src={icons.linkedinButton} alt="linkedInButton" /></button>
+            <button className="cursor-pointer h-7 w-7"><a href="https://x.com/sisir_codes"></a><img src={icons.xButton} alt="XButton" /></button>
           </div>
         </div>
       </div>
