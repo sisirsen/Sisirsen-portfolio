@@ -15,13 +15,13 @@ function Navbar() {
         SISIR SEN
       </div>
 
-      <div className="md:hidden h-7 w-7 ml-auto ">
+      <div className="md:hidden h-9 w-9 ml-auto p-2 hover:bg-cyan-800 rounded-2xl transition-all duration-200">
         <img src={icons.menuButton} alt="menu" />
       </div>
 
       <div className="hidden md:flex ml-auto gap-9 text-lg text-white cursor-pointer">
         {navItems.map((items) => (
-          <p key={items.item} className="hover:underline">
+          <p key={items.item} className="hover:underline underline-offset-8 hover:text-cyan-500">
             {items.item}
           </p>
         ))}

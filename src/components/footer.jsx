@@ -21,18 +21,36 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex items-center ml-auto text-sky-500">   
+        <div className="flex items-center ml-auto">   
           <div className="flex gap-5">
-            <button className="cursor-pointer h-6 w-6"> <a href="https://github.com/sisirsen"></a> <img src={icons.gitButton} alt="githubButton" /></button>
-            <button className="cursor-pointer h-5 w-4"> <a href="www.linkedin.com/in/sisir-sen"></a><img src={icons.linkedinButton} alt="linkedInButton" /></button>
-            <button className="cursor-pointer h-7 w-7"><a href="https://x.com/sisir_codes"></a><img src={icons.xButton} alt="XButton" /></button>
+            <a 
+            href="https://github.com/sisirsen"
+            target="_blank"
+            rel="noopener noreferrer"
+            
+            className="cursor-pointer h-6 w-6 bg-white rounded-2xl hover:bg-cyan-500"> <a href="https://github.com/sisirsen"></a> <img src={icons.gitButton} alt="githubButton" /></a>
+
+
+            <a 
+            href="https://in.linkedin.com/in/sisir-sen"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer h-5 w-4 bg-white rounded-2xl hover:bg-cyan-500"> <a href="www.linkedin.com/in/sisir-sen"></a><img src={icons.linkedinButton} alt="linkedInButton" /></a>
+
+
+            <a 
+            href="https://x.com/sisir_codes"
+            target="_blank"
+            rel="noopener noreferrer"
+            
+            className="cursor-pointer h-7 w-7 bg-white rounded-2xl hover:bg-cyan-500"><a href="https://x.com/sisir_codes"></a><img src={icons.xButton} alt="XButton" /></a>
           </div>
         </div>
       </div>
 
 
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm text-gray-400">
-        © {new Date().getFullYear()} Sisir Sen. All rights reserved.
+        Made By Sisir with lots of 💖 and 😵‍💫
       </div>
     </footer>
   );

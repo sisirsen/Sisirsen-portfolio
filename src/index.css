@@ -3,4 +3,7 @@
 
 body {
   background: #0F172A;
+  font-family: "Manrope", sans-serif;
+   user-select: none;
+   scroll-behavior: smooth;
 }
