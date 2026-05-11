@@ -4,25 +4,25 @@ import { FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 
 function Home() {
   return (
-    <div className="p-10 py-17  md:flex items-center gap-90 w-full ">
+    <div id="Home" className="p-20 py-27 md:flex items-center gap-90 w-full ">
       <div>
-        <div className="text-white flex gap-3 text-4xl md:text-6xl font-extrabold">
+        <div className="text-white mt-12 flex justify-center md:justify-normal gap-3 text-4xl md:text-6xl font-extrabold">
           Hi, I'm
           <div className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent w-fit">
             SISIR
           </div>
         </div>
 
-        <div className="mt-6 text-2xl md:text-3xl text-white">
+        <div className="mt-6 text-2xl flex justify-center md:flex md:justify-normal md:text-3xl text-white">
           Frontend Developer
         </div>
 
         <div className="text-gray-400 mt-5 text-lg max-w-xl leading-6">
-          Building modern, responsive, and user-focused web experiences with
-          clean design and powerful frontend technologies
+          <span>Crafting modern, responsive, and user-focused web experiences.</span>
+          
         </div>
 
-        <div className="flex items-center gap-6 mt-8">
+        <div className="flex justify-center md:justify-normal items-center gap-6 mt-8">
           <button className="h-[50px] w-[120px] cursor-pointer font-bold text-gray-200 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl">
             Let's Talk
           </button>
@@ -31,7 +31,7 @@ function Home() {
           </button>
         </div>
 
-        <div className=" flex items-center gap-4 mt-8 ">
+        <div className=" flex items-center justify-center md:flex md:justify-normal gap-4 mt-8 ">
           <a
             href="https://github.com/sisirsen"
             target="_blank"
@@ -60,7 +60,8 @@ function Home() {
           </a>
         </div>
       </div>
-      <div>
+
+      <div className="flex justify-center md:flex md:justify-normal">
         <img
           className=" ml-2 mt-8 md:h-[500px] w-[350px] rounded-2xl"
           src={icons.MyImage}

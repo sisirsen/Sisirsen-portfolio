@@ -2,9 +2,12 @@ import React from "react";
 
 function About() {
   return (
-    <div className="bg-[#020617]  py-20 md:p-17">
+    <div id="About" className="bg-[#020617]  py-20 md:p-17 md:py-27">
       <div className="flex items-center justify-center text-2xl md:text-4xl text-cyan-500 md:font-extrabold underline underline-offset-10">
-        About Me
+        <span className="text-white">
+          About <span className="text-cyan-500">Me</span>
+
+        </span>
       </div>
 
       <div className="px-7 md:pl-20">
@@ -40,7 +43,7 @@ function About() {
           </div>
         </div>
 
-        <div className="flex mt-10 gap-8">
+        <div className="flex justify-center md:justify-normal mt-12 gap-8">
           <a 
           href="https://drive.google.com/drive/folders/18CeCl8362n6qBRyNlL6MXMKJPR264Mbf"
           target="_blank"
