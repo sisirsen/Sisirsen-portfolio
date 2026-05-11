@@ -35,7 +35,7 @@ const Footer = () => {
             href="https://in.linkedin.com/in/sisir-sen"
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer h-5 w-4 bg-white rounded-2xl hover:bg-cyan-500"> <a href="www.linkedin.com/in/sisir-sen"></a><img src={icons.linkedinButton} alt="linkedInButton" /></a>
+            className="cursor-pointer h-7 w-7 bg-white rounded-4xl hover:bg-cyan-500"> <a href="www.linkedin.com/in/sisir-sen"></a><img src={icons.linkedinButton} alt="linkedInButton" /></a>
 
 
             <a 
@@ -50,7 +50,7 @@ const Footer = () => {
 
 
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm text-gray-400">
-        Made By Sisir with lots of 💖 and 😵‍💫
+        Made by Sisir with 💖
       </div>
     </footer>
   );
