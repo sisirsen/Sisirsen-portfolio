@@ -31,7 +31,7 @@ function Home() {
           </button>
         </div>
 
-        <div className=" flex items-center gap-4 mt-8 pl-3">
+        <div className=" flex items-center gap-4 mt-8 ">
           <a
             href="https://github.com/sisirsen"
             target="_blank"
@@ -62,7 +62,7 @@ function Home() {
       </div>
       <div>
         <img
-          className=" ml-4 mt-8 md:h-[500px] w-[350px]  rounded-2xl"
+          className=" ml-2 mt-8 md:h-[500px] w-[350px] rounded-2xl"
           src={icons.MyImage}
           alt="image"
         />
