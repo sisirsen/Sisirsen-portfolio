@@ -10,13 +10,14 @@ function Skills() {
         </span>
       </div>
 
+      {/* Professional Skills */}
+
       <div>
         <div className="text-2xl md:text-3xl font-bold mt-20 flex justify-center ">
           <span className="text-white ">
-            
-            Professional 
+            Professional
             <span className="bg-gradient-to-r from-cyan-500 to-purple-500 bg-clip-text text-transparent pl-2">
-               Skills
+              Skills
             </span>
           </span>
         </div>
@@ -67,6 +68,9 @@ function Skills() {
           </div>
         </div>
       </div>
+
+      {/*Tools & Technologies */}
+
       <div className="flex text-2xl md:text-3xl font-black mt-20 justify-center">
         <span className="text-white">
           Tools &
