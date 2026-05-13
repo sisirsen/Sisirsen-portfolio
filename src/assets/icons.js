@@ -1,5 +1,4 @@
 import menuButton from "./icon/menu.png";
-import gitButton from "./icon/github.png";
 import linkedinButton from "./icon/linkedin.png";
 import xButton from "./icon/twitter.png";
 import MyImage from "./icon/My_image.jpeg";
@@ -17,25 +16,13 @@ import communication from "./icon/communication.png";
 import teamwork from "./icon/teamwork.jpg";
 import problemsolving from "./icon/problemsolving.jpeg";
 import panctuality from "./icon/panctual.webp";
+import taskmanagementapp from './icon/task_management_app.webp';
+import weatherapp from './icon/weather.jpg';
+import calculatorapp from './icon/calculator.jpg';
+import portfolioapp from './icon/portfolio.jpg';
+import livelink from './icon/livelink.png'
 
 export default {
-  menuButton,
-  gitButton,
-  linkedinButton,
-  xButton,
-  MyImage,
-  html,
-  tailwind,
-  js,
-  react,
-  java,
-  git,
-  figma,
-  vercel,
-  vscode,
-  github,
-  communication,
-  teamwork,
-  problemsolving,
-  panctuality,
+
+  menuButton, linkedinButton, xButton, MyImage, html, tailwind, js, react, java,git, figma, vercel, vscode, github, communication, teamwork, problemsolving, panctuality,taskmanagementapp, weatherapp, calculatorapp, portfolioapp,livelink
 };

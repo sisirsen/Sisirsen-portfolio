@@ -1,5 +1,5 @@
 import React from "react";
-import icons from "../utils/iconAccess";
+import { FiGithub,FiLinkedin, FiTwitter } from "react-icons/fi";
 
 const Footer = () => {
   return (
@@ -28,14 +28,17 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             
-            className="cursor-pointer h-6 w-6 bg-white rounded-2xl hover:bg-cyan-500"> <img src={icons.gitButton} alt="githubButton" /></a>
+            className="cursor-pointer h-8 w-8 bg-gray-700 flex items-center justify-center rounded-2xl hover:text-cyan-500"> <FiGithub />
+            
+            </a>
 
 
             <a 
             href="https://in.linkedin.com/in/sisir-sen"
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer h-7 w-7 bg-white rounded-4xl hover:bg-cyan-500"> <img src={icons.linkedinButton} alt="linkedInButton" /></a>
+           className="cursor-pointer h-8 w-8 bg-gray-700 flex items-center justify-center rounded-2xl hover:text-cyan-500"> <FiLinkedin />
+            </a>
 
 
             <a 
@@ -43,7 +46,8 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             
-            className="cursor-pointer h-7 w-7 bg-white rounded-2xl hover:bg-cyan-500"><img src={icons.xButton} alt="XButton" />
+            className="cursor-pointer h-8 w-8 bg-gray-700 flex items-center justify-center rounded-2xl hover:text-cyan-500"> <FiTwitter />
+            
           </a>
         </div>
       </div>

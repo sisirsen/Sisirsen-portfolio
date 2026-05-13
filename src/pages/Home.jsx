@@ -18,17 +18,22 @@ function Home() {
         </div>
 
         <div className="text-gray-400 mt-5 text-lg max-w-xl leading-6">
-          <span>Crafting modern, responsive, and user-focused web experiences.</span>
-          
+          <span>
+            Crafting modern, responsive, and user-focused web experiences.
+          </span>
         </div>
 
         <div className="flex justify-center md:justify-normal items-center gap-6 mt-8">
           <button className="h-[50px] w-[120px] cursor-pointer font-bold text-gray-200 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl">
             Let's Talk
           </button>
-          <button className="text-cyan-400 border-2 cursor-pointer hover:bg-gray-800 h-[50px] w-[120px] rounded-3xl transition-all duration-200">
+
+          <a
+            href="#Projects"
+            className="text-cyan-400 flex items-center justify-center border-2 cursor-pointer hover:bg-gray-800 h-[50px] w-[120px] rounded-3xl transition-all duration-200"
+          >
             View Work
-          </button>
+          </a>
         </div>
 
         <div className=" flex items-center justify-center md:flex md:justify-normal gap-4 mt-8 ">
