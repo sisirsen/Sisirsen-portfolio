@@ -34,7 +34,6 @@ function About() {
           <div>
             <div>Name: Sisir Sen</div>
             <div>Email: worksisir01@gmail.com</div>
-            <div>Mobile: +91 9907517710</div>
           </div>
           <div className="mt-4">
             <div>Age: 22</div>
@@ -48,12 +47,12 @@ function About() {
           href="https://drive.google.com/drive/folders/18CeCl8362n6qBRyNlL6MXMKJPR264Mbf"
           target="_blank"
           rel="noopener noreferrer"
-          className="h-[50px] w-[120px] flex items-center justify-center cursor-pointer font-bold text-gray-200 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl tracking-wider">
+          className="h-[50px] w-[120px] flex items-center justify-center cursor-pointer font-bold text-gray-200 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500">
             My CV
           </a>
-          <div className="text-cyan-400 flex justify-center items-center border-2 cursor-pointer hover:bg-gray-800 h-[50px] w-[120px] transition-all duration-200 rounded-3xl">
+          <a href="#Contact" className="text-cyan-400 flex justify-center items-center border-2 cursor-pointer hover:bg-gray-800 h-[50px] w-[120px] transition-all duration-200 rounded-3xl">
             Connect
-          </div>
+          </a>
         </div>
       </div>
     </div>
