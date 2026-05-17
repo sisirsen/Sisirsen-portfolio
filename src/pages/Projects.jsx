@@ -14,10 +14,10 @@ function Projects() {
 
       {/* project 1 : Task manager app */}
 
-      <div className="mt-20 gap-8 flex justify-center md:justify-normal flex-wrap">
+      <div className="mt-20 gap-8 flex justify-center  md:justify-normal flex-wrap">
 
 
-        <div className="h-[389px] w-[360px] md:h-[450px] md:w-[440px] bg-[#1E293B] rounded-xl">
+        <div className="h-[389px] w-[360px] md:h-[450px] md:w-[440px] hover:-translate-y-2 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] rounded-xl">
           <img
             className="h-[190px] w-[500px] md:h-[250px] md:w-[500px] rounded-xl "
             src={icons.taskmanagementapp}
@@ -68,7 +68,7 @@ function Projects() {
 
         {/* project 2 : Weather app */}
 
-        <div className="h-[389px] w-[360px] md:h-[450px] md:w-[440px] bg-[#1E293B] rounded-xl">
+        <div className="h-[389px] w-[360px] md:h-[450px] md:w-[440px] hover:-translate-y-2 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] rounded-xl">
           <img
             className="h-[190px] w-[500px] md:h-[250px] md:w-[500px] rounded-xl "
             src={icons.weatherapp}
@@ -119,7 +119,7 @@ function Projects() {
 
         {/* project 3 : Calculator app */}
 
-        <div className="h-[389px] w-[360px] md:h-[450px] md:w-[440px] bg-[#1E293B] rounded-xl">
+        <div className="h-[389px] w-[360px] md:h-[450px] md:w-[440px] w-[360px] hover:-translate-y-2 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] rounded-xl">
           <img
             className="h-[190px] w-[500px] md:h-[250px] md:w-[500px] rounded-xl "
             src={icons.calculatorapp}
@@ -167,7 +167,7 @@ function Projects() {
 
         {/* project 4 : portfolio app */}
 
-        <div className="h-[389px] w-[360px] md:h-[450px] md:w-[440px] bg-[#1E293B] rounded-xl">
+        <div className="h-[389px] w-[360px] hover:-translate-y-2 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 md:h-[450px] md:w-[440px] bg-[#1E293B] rounded-xl">
           <img
             className="h-[190px] w-[500px] md:h-[250px] md:w-[500px] rounded-xl "
             src={icons.portfolioapp}

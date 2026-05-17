@@ -23,7 +23,7 @@ function Skills() {
         </div>
 
         <div className=" mt-10  flex flex-wrap justify-center md:flex gap-9 md:justify-center">
-          <div className="h-[120px] w-[150px] md:h-[150px] md:w-[200px] shadow-2xl rounded-2xl bg-[#1E293B]">
+          <div className="h-[120px] w-[150px] md:h-[150px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
             <img
               className="h-[80px] w-[150px] md:h-[100px] md:w-[250px] rounded-lg"
               src={icons.communication}
@@ -34,7 +34,7 @@ function Skills() {
             </span>
           </div>
 
-          <div className="h-[120px] w-[150px] md:h-[150px] md:w-[200px] shadow-2xl rounded-2xl bg-[#1E293B]">
+          <div className="h-[120px] w-[150px] md:h-[150px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
             <img
               className="h-[80px] w-[150px] md:h-[100px] md:w-[250px] rounded-lg"
               src={icons.teamwork}
@@ -45,7 +45,7 @@ function Skills() {
             </span>
           </div>
 
-          <div className="h-[120px] w-[150px] md:h-[150px] md:w-[200px] shadow-2xl rounded-2xl bg-[#1E293B]">
+          <div className="h-[120px] w-[150px] md:h-[150px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
             <img
               className="h-[80px] w-[150px] md:h-[100px] md:w-[250px] rounded-lg"
               src={icons.problemsolving}
@@ -56,7 +56,7 @@ function Skills() {
             </span>
           </div>
 
-          <div className="h-[120px] w-[150px] md:h-[150px] md:w-[200px] shadow-2xl rounded-2xl bg-[#1E293B]">
+          <div className="h-[120px] w-[150px] md:h-[150px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
             <img
               className="h-[80px] w-[150px] md:h-[100px] md:w-[250px] rounded-lg"
               src={icons.panctuality}
@@ -81,12 +81,12 @@ function Skills() {
       </div>
 
       <div className="mt-10 flex flex-wrap md:flex md:flex-wrap justify-center gap-9 ">
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
           <img className=" h-[30px] w-[30px]" src={icons.html} alt="htmllogo" />
           HTML
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
           <img
             className=" h-[30px] w-[45px]"
             src={icons.tailwind}
@@ -95,12 +95,12 @@ function Skills() {
           Tailwind
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
           <img className=" h-[30px] w-[30px]" src={icons.js} alt="jslogo" />
           JavaScript
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
           <img
             className=" h-[35px] w-[37px]"
             src={icons.react}
@@ -109,7 +109,7 @@ function Skills() {
           React Js
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] bg-[#1E293B] flex flex-wrap flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex flex-wrap flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
           <img
             className=" h-[40px] w-[35px]"
             src={icons.java}
@@ -118,12 +118,12 @@ function Skills() {
           Java
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
           <img className=" h-[40px] w-[37px]" src={icons.git} alt="git logo" />
           Git
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
           <img
             className=" h-[40px] w-[40px] rounded"
             src={icons.github}
@@ -132,7 +132,7 @@ function Skills() {
           GitHub
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
           <img
             className=" h-[40px] w-[40px] rounded"
             src={icons.vercel}
@@ -141,7 +141,7 @@ function Skills() {
           Vercel
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
           <img
             className=" h-[40px] w-[40px] rounded"
             src={icons.figma}
@@ -150,7 +150,7 @@ function Skills() {
           Figma
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
           <img
             className=" h-[40px] w-[40px] rounded"
             src={icons.vscode}
