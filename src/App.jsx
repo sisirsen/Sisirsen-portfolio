@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import UpButton from "./components/upButton";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Home />
 
       <About />
+
+      <UpButton />
 
       <Skills />
 

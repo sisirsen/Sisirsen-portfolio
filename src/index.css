@@ -9,3 +9,8 @@ body {
   font-family: "Manrope", sans-serif;
   /* user-select: none; */
 }
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: white;
+  transition: background-color 9999s ease-in-out 0s;
+}
