@@ -5,7 +5,7 @@ import { FiGithub,FiLinkedin,FiTwitter } from 'react-icons/fi';
 
 function Contact() {
   return (
-    <div id='Contact' className='py-20 md:p-10 md:py-27'>
+    <div id='Contact' className='py-20 p-6 md:p-10 md:py-27'>
 
       <div className="flex items-center justify-center text-2xl md:text-4xl text-cyan-500 md:font-extrabold underline underline-offset-10">
         <span className="text-white">
@@ -65,24 +65,24 @@ function Contact() {
 
 <div className='mt-15'>
   <div>
-    <div className='text-white font-bold'>Your Name</div>
-    <input className='border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-[600px] rounded-xl border-cyan-500' spellCheck="false" type="text" required />
+    <div className='text-white flex justify-center md:justify-normal font-bold'>Your Name</div>
+    <input className='border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-[430px] md:w-[600px] rounded-xl border-cyan-500' spellCheck="false" type="text" required />
   </div>
 
 
   <div className='mt-5'>
-    <div className='text-white font-bold'>Your Email</div>
-    <input className='border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-[600px] rounded-xl border-cyan-500' spellCheck="false" type="text" required />
+    <div className='text-white flex justify-center md:justify-normal font-bold'>Your Email</div>
+    <input className='border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-[430px] md:w-[600px] rounded-xl border-cyan-500 ' type='email' spellCheck="false" required />
   </div>
 
   <div className='mt-5'>
-    <div className='text-white font-bold'>Subject</div>
-    <input className='border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-[600px] rounded-xl border-cyan-500' spellCheck="false" type="text" required />
+    <div className='text-white flex justify-center md:justify-normal font-bold'>Subject</div>
+    <input className='border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-[430px] md:w-[600px] rounded-xl border-cyan-500' spellCheck="false" type="text" required />
   </div>
 
   <div className='mt-5'>
-    <div className='text-white font-bold'>Message</div>
-    <textarea className='border-2 mt-3 text-white bg-gray-800 shadow-2xl focus:outline-none p-3 overflow-hidden outline-none h-[150px] w-[600px] rounded-xl border-cyan-500' spellCheck="false" type="text" required></textarea>
+    <div className='text-white flex justify-center md:justify-normal font-bold'>Message</div>
+    <textarea className='border-2 mt-3 text-white bg-gray-800 shadow-2xl focus:outline-none p-3 overflow-hidden outline-none h-[150px] w-[430px] md:w-[600px] rounded-xl border-cyan-500' spellCheck="false" type="text" required></textarea>
   </div>
 
 <div className='flex items-center justify-center mt-8'>
