@@ -11,11 +11,11 @@ function Navbar() {
   ];
   return (
     <div className="flex fixed w-full z-50 py-4 px-8 items-center bg-[#05091A] ">
-      <div className=" bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent text-2xl font-bold">
+      <a href="/" className=" bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent text-2xl font-bold">
         SISIR SEN
-      </div>
+      </a>
 
-      <div className="md:hidden h-9 w-9 ml-auto p-2 hover:bg-cyan-800 rounded-2xl transition-all duration-200">
+      <div className="md:hidden h-9 w-9 ml-auto p-2 md:hover:bg-cyan-800 rounded-xl transition-all duration-200 active:hover:bg-cyan-800">
         <img src={icons.menuButton} alt="menu" />
       </div>
 
