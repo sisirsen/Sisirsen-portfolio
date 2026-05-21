@@ -105,7 +105,7 @@ function Contact() {
                 Your Name
               </label>
               <input
-                className="border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-[320px] md:w-[600px] rounded-xl border-cyan-500"
+                className="border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-full md:w-[600px] rounded-xl border-cyan-500"
                 name="user_name"
                 id="user_name"
                 spellCheck="false"
@@ -123,7 +123,7 @@ function Contact() {
                 Your Email
               </label>
               <input
-                className="border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-[320px] md:w-[600px] rounded-xl border-cyan-500 "
+                className="border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-full md:w-[600px] rounded-xl border-cyan-500 "
                 name="user_email"
                 id="user_email"
                 type="email"
@@ -141,7 +141,7 @@ function Contact() {
                 Subject
               </label>
               <input
-                className="border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-[320px] md:w-[600px] rounded-xl border-cyan-500"
+                className="border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-full md:w-[600px] rounded-xl border-cyan-500"
                 placeholder="Enter your subject"
                 name="user_subject"
                 id="user_subject"
@@ -159,7 +159,7 @@ function Contact() {
                 Message
               </label>
               <textarea
-                className="border-2 mt-3 text-white bg-gray-800 shadow-2xl focus:outline-none p-3 overflow-hidden outline-none h-[150px] w-[320px] md:w-[600px] rounded-xl border-cyan-500"
+                className="border-2 mt-3 text-white bg-gray-800 shadow-2xl focus:outline-none p-3 overflow-hidden outline-none h-[150px] w-full md:w-[600px] rounded-xl border-cyan-500"
                 placeholder="Enter the message"
                 name="user_message"
                 id="user_message"
