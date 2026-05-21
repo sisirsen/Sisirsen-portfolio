@@ -23,46 +23,46 @@ function Skills() {
         </div>
 
         <div className=" mt-10  flex flex-wrap justify-center md:flex gap-9 md:justify-center">
-          <div className="h-[120px] w-[150px] md:h-[150px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
+          <div className="h-[100px] w-[120px] md:h-[150px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
             <img
-              className="h-[80px] w-[150px] md:h-[100px] md:w-[250px] rounded-lg"
+              className="h-[60px] w-[120px] md:h-[100px] md:w-[250px] rounded-lg"
               src={icons.communication}
               alt="communication"
             />
-            <span className="text-white flex items-center justify-center mt-2 font-bold">
+            <span className="text-white text-sm flex items-center justify-center mt-2 font-bold">
               Communication
             </span>
           </div>
 
-          <div className="h-[120px] w-[150px] md:h-[150px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
+          <div className="h-[100px] w-[120px] md:h-[150px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
             <img
-              className="h-[80px] w-[150px] md:h-[100px] md:w-[250px] rounded-lg"
+              className="h-[60px] w-[120px] md:h-[100px] md:w-[250px] rounded-lg"
               src={icons.teamwork}
               alt="communication"
             />
-            <span className="text-white flex items-center justify-center mt-2 font-bold">
+            <span className="text-white text-sm flex items-center justify-center mt-2 font-bold">
               Team Work
             </span>
           </div>
 
-          <div className="h-[120px] w-[150px] md:h-[150px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
+          <div className="h-[100px] w-[120px] md:h-[150px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
             <img
-              className="h-[80px] w-[150px] md:h-[100px] md:w-[250px] rounded-lg"
+              className="h-[60px] w-[120px] md:h-[100px] md:w-[250px] rounded-lg"
               src={icons.problemsolving}
               alt="communication"
             />
-            <span className="text-white flex items-center justify-center mt-2 font-bold">
+            <span className="text-white text-sm flex items-center justify-center mt-2 font-bold">
               Problem Solving
             </span>
           </div>
 
-          <div className="h-[120px] w-[150px] md:h-[150px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
+          <div className="h-[100px] w-[120px] md:h-[150px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
             <img
-              className="h-[80px] w-[150px] md:h-[100px] md:w-[250px] rounded-lg"
+              className="h-[60px] w-[120px] md:h-[100px] md:w-[250px] rounded-lg"
               src={icons.panctuality}
               alt="communication"
             />
-            <span className="text-white flex items-center justify-center mt-2 font-bold">
+            <span className="text-white text-sm flex items-center justify-center mt-2 font-bold">
               Punctuality
             </span>
           </div>
@@ -80,83 +80,83 @@ function Skills() {
         </span>
       </div>
 
-      <div className="mt-10 flex flex-wrap md:flex md:flex-wrap justify-center gap-9 ">
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
-          <img className=" h-[30px] w-[30px]" src={icons.html} alt="htmllogo" />
-          HTML
+      <div className="mt-10 flex flex-wrap md:flex md:flex-wrap justify-center  gap-9 ">
+        <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
+          <img className="h-[25px] w-[25px] md:h-[30px] md:w-[30px]" src={icons.html} alt="htmllogo" />
+          <span className="text-sm">HTML</span>
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
           <img
-            className=" h-[30px] w-[45px]"
+            className=" h-[25px] w-[35px] md:h-[30px] md-w-[45px]"
             src={icons.tailwind}
             alt="tailwindLogo"
           />
-          Tailwind
+          <span className="text-sm">Tailwind</span>
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
-          <img className=" h-[30px] w-[30px]" src={icons.js} alt="jslogo" />
-          JavaScript
+        <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
+          <img className="h-[25px] w-[25px] md:h-[30px] md:w-[30px]" src={icons.js} alt="jslogo" />
+          <span className="text-sm">JavaScript</span>
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
           <img
-            className=" h-[35px] w-[37px]"
+            className="h-[25px] w-[27px]  md:h-[35px] md:w-[37px]"
             src={icons.react}
             alt="react logo"
           />
-          React Js
+          <span className="text-sm">React Js</span>
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex flex-wrap flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
           <img
-            className=" h-[40px] w-[35px]"
+            className="h-[30px] w-[26px] md:h-[40px] md:w-[35px]"
             src={icons.java}
             alt="java logo"
           />
-          Java
+          <span className="text-sm">Java</span>
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
-          <img className=" h-[40px] w-[37px]" src={icons.git} alt="git logo" />
-          Git
+        <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
+          <img className="h-[30px] w-[30px] md:h-[40px] md:w-[37px]" src={icons.git} alt="git logo" />
+         <span className="text-sm">Git</span>
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
           <img
-            className=" h-[40px] w-[40px] rounded"
+            className="h-[30px] w-[30px] md:h-[40px] md:w-[40px] rounded"
             src={icons.github}
             alt="GitHub"
           />
-          GitHub
+          <span className="text-sm">GitHub</span>
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
           <img
-            className=" h-[40px] w-[40px] rounded"
+            className="h-[30px] w-[30px] md:h-[40px] md:w-[40px] rounded"
             src={icons.vercel}
             alt="vercellogo"
           />
-          Vercel
+         <span className="text-sm">Vercel</span>
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
           <img
-            className=" h-[40px] w-[40px] rounded"
+            className="h-[30px] w-[30px] md:h-[40px] md:w-[40px] rounded"
             src={icons.figma}
             alt="figma"
           />
-          Figma
+         <span className="text-sm">Figma</span>
         </div>
 
-        <div className="h-[100px] w-[180px] md:h-[120px] md:w-[200px] hover:-translate-y-1 ease-in-out hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] transition-all hover:duration-500 bg-[#1E293B] flex  flex-col items-center justify-center text-white gap-2 rounded-2xl shadow">
+        <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
           <img
-            className=" h-[40px] w-[40px] rounded"
+            className="h-[27px] w-[27px] md:h-[40px] md:w-[40px] rounded"
             src={icons.vscode}
             alt="vscode"
           />
-          VS Code
+         <span className="text-sm">VS Code</span>
         </div>
       </div>
     </div>
