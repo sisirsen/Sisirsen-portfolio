@@ -29,7 +29,7 @@ function Skills() {
               src={icons.communication}
               alt="communication"
             />
-            <span className="text-white text-sm flex items-center justify-center mt-2 font-bold">
+            <span className="text-white text-sm flex items-center justify-center mt-2 ">
               Communication
             </span>
           </div>
@@ -40,7 +40,7 @@ function Skills() {
               src={icons.teamwork}
               alt="communication"
             />
-            <span className="text-white text-sm flex items-center justify-center mt-2 font-bold">
+            <span className="text-white text-sm flex items-center justify-center mt-2 ">
               Team Work
             </span>
           </div>
@@ -51,7 +51,7 @@ function Skills() {
               src={icons.problemsolving}
               alt="communication"
             />
-            <span className="text-white text-sm flex items-center justify-center mt-2 font-bold">
+            <span className="text-white text-sm flex items-center justify-center mt-2 ">
               Problem Solving
             </span>
           </div>
@@ -62,7 +62,7 @@ function Skills() {
               src={icons.panctuality}
               alt="communication"
             />
-            <span className="text-white text-sm flex items-center justify-center mt-2 font-bold">
+            <span className="text-white text-sm flex items-center justify-center mt-2 ">
               Punctuality
             </span>
           </div>

@@ -81,7 +81,7 @@ function Home() {
 
       <div className="flex justify-center md:flex md:justify-normal">
         <img
-          className=" ml-2 mt-8 shadow-[0px_0px_18px_#263d84] md:hover:-translate-y-2 md:hover:shadow-[0px_0px_18px_rgba(255,255,255,0.3)] transition-all duration-500 md:h-[500px] md:w-[350px] rounded-2xl"
+          className=" ml-2 mt-8 shadow-[0px_0px_18px_#263d84] md:hover:-translate-y-2 md:hover:shadow-[0px_0px_18px_rgba(255,255,255,0.3)] rounded-full transition-all duration-500 md:h-[450px] md:w-[450px] rounded-2xl"
           src={icons.MyImage}
           alt="image"
         />
