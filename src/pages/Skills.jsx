@@ -23,46 +23,46 @@ function Skills() {
         </div>
 
         <div className=" mt-10  flex flex-wrap justify-center md:flex gap-9 md:justify-center">
-          <div className="h-[100px] w-[120px] md:h-[150px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
+          <div className="h-[100px] w-[120px] md:h-[150px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B] overflow-hidden">
             <img
-              className="h-[60px] w-[120px] md:h-[100px] md:w-[250px] rounded-lg"
+              className="h-[60px] w-[120px] md:h-[100px] md:w-[250px] "
               src={icons.communication}
               alt="communication"
             />
-            <span className="text-white text-sm flex items-center justify-center mt-2 ">
+            <span className="text-white font-semibold text-sm flex items-center justify-center mt-3 ">
               Communication
             </span>
           </div>
 
-          <div className="h-[100px] w-[120px] md:h-[150px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
+          <div className="h-[100px] w-[120px] md:h-[150px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B] overflow-hidden">
             <img
-              className="h-[60px] w-[120px] md:h-[100px] md:w-[250px] rounded-lg"
+              className="h-[60px] w-[120px] md:h-[100px] md:w-[250px] "
               src={icons.teamwork}
               alt="communication"
             />
-            <span className="text-white text-sm flex items-center justify-center mt-2 ">
+            <span className="text-white font-semibold text-sm flex items-center justify-center mt-3 ">
               Team Work
             </span>
           </div>
 
-          <div className="h-[100px] w-[120px] md:h-[150px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
+          <div className="h-[100px] w-[120px] md:h-[150px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B] overflow-hidden">
             <img
-              className="h-[60px] w-[120px] md:h-[100px] md:w-[250px] rounded-lg"
+              className="h-[60px] w-[120px] md:h-[100px] md:w-[250px] "
               src={icons.problemsolving}
               alt="communication"
             />
-            <span className="text-white text-sm flex items-center justify-center mt-2 ">
+            <span className="text-white font-semibold text-sm flex items-center justify-center mt-3 ">
               Problem Solving
             </span>
           </div>
 
-          <div className="h-[100px] w-[120px] md:h-[150px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B]">
+          <div className="h-[100px] w-[120px] md:h-[150px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 shadow-2xl rounded-2xl bg-[#1E293B] overflow-hidden">
             <img
-              className="h-[60px] w-[120px] md:h-[100px] md:w-[250px] rounded-lg"
+              className="h-[60px] w-[120px] md:h-[100px] md:w-[250px] "
               src={icons.panctuality}
               alt="communication"
             />
-            <span className="text-white text-sm flex items-center justify-center mt-2 ">
+            <span className="text-white font-semibold text-sm mt-3 flex items-center justify-center ">
               Punctuality
             </span>
           </div>
@@ -83,21 +83,21 @@ function Skills() {
       <div className="mt-10 flex flex-wrap md:flex md:flex-wrap justify-center  gap-9 ">
         <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
           <img className="h-[25px] w-[25px] md:h-[30px] md:w-[30px]" src={icons.html} alt="htmllogo" />
-          <span className="text-sm">HTML</span>
+          <span className="text-sm font-semibold">HTML</span>
         </div>
 
         <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
           <img
-            className=" h-[25px] w-[35px] md:h-[30px] md-w-[45px]"
+            className=" h-[25px] w-[35px] md:h-[27px] md-w-[47px]"
             src={icons.tailwind}
             alt="tailwindLogo"
           />
-          <span className="text-sm">Tailwind</span>
+          <span className="text-sm font-semibold">Tailwind</span>
         </div>
 
         <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
           <img className="h-[25px] w-[25px] md:h-[30px] md:w-[30px]" src={icons.js} alt="jslogo" />
-          <span className="text-sm">JavaScript</span>
+          <span className="text-sm font-semibold">JavaScript</span>
         </div>
 
         <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
@@ -106,7 +106,7 @@ function Skills() {
             src={icons.react}
             alt="react logo"
           />
-          <span className="text-sm">React Js</span>
+          <span className="text-sm font-semibold">React Js</span>
         </div>
 
         <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
@@ -115,12 +115,12 @@ function Skills() {
             src={icons.java}
             alt="java logo"
           />
-          <span className="text-sm">Java</span>
+          <span className="text-sm font-semibold">Java</span>
         </div>
 
         <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
           <img className="h-[30px] w-[30px] md:h-[40px] md:w-[37px]" src={icons.git} alt="git logo" />
-         <span className="text-sm">Git</span>
+         <span className="text-sm font-semibold">Git</span>
         </div>
 
         <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
@@ -129,7 +129,7 @@ function Skills() {
             src={icons.github}
             alt="GitHub"
           />
-          <span className="text-sm">GitHub</span>
+          <span className="text-sm font-semibold">GitHub</span>
         </div>
 
         <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
@@ -138,7 +138,7 @@ function Skills() {
             src={icons.vercel}
             alt="vercellogo"
           />
-         <span className="text-sm">Vercel</span>
+         <span className="text-sm font-semibold">Vercel</span>
         </div>
 
         <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
@@ -147,7 +147,7 @@ function Skills() {
             src={icons.figma}
             alt="figma"
           />
-         <span className="text-sm">Figma</span>
+         <span className="text-sm font-semibold">Figma</span>
         </div>
 
         <div className="h-[80px] w-[120px] md:h-[120px] md:w-[200px] md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] flex flex-col items-center justify-center text-white gap-2 rounded-2xl shadow-2xl">
@@ -156,7 +156,7 @@ function Skills() {
             src={icons.vscode}
             alt="vscode"
           />
-         <span className="text-sm">VS Code</span>
+         <span className="text-sm font-semibold">VS Code</span>
         </div>
       </div>
     </div>

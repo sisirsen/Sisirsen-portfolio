@@ -16,7 +16,7 @@ function Navbar() {
   ];
   return (
     // logo
-    <div className="flex fixed w-full z-50 py-4 px-8 items-center bg-[#05091A] ">
+    <div className="flex fixed w-full z-50 py-4 px-8 items-center backdrop-blur-2xl bg-black/10 border-b border-white/10">
       <a href="/" className=" bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent text-2xl font-bold">
         SISIR SEN
       </a>

@@ -7,7 +7,7 @@ function Home() {
   return (
     <div
       id="Home"
-      className="p-20 py-27 md:flex items-center md:justify-between w-full "
+      className="p-20 py-32 md:flex items-center md:justify-between w-full "
     >
       <div>
         <div className="text-white mt-12 flex justify-center md:justify-normal gap-3 text-4xl md:text-6xl font-extrabold flex-wrap">
@@ -79,9 +79,9 @@ function Home() {
         </div>
       </div>
 
-      <div className="flex justify-center md:flex md:justify-normal">
+      <div className="flex justify-center md:flex md:justify-normal ">
         <img
-          className=" ml-2 mt-8 shadow-[0px_0px_18px_#263d84] md:hover:-translate-y-2 md:hover:shadow-[0px_0px_18px_rgba(255,255,255,0.3)] rounded-full transition-all duration-500 md:h-[450px] md:w-[450px] rounded-2xl"
+          className=" ml-2 mt-8 shadow-[0px_0px_18px_#263d84] md:hover:-translate-y-2 md:hover:shadow-[0px_0px_18px_rgba(255,255,255,0.3)] rounded-full transition-all duration-500 md:h-[450px] md:w-[450px] overflow-hidden object-cover "
           src={icons.MyImage}
           alt="image"
         />

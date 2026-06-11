@@ -14,12 +14,12 @@ function Projects() {
 
       {/* project 1 : Task manager app */}
 
-      <div className="mt-20 gap-8 flex justify-center  md:justify-normal flex-wrap">
+      <div className="mt-20 gap-8 flex justify-center  md:justify-between flex-wrap">
 
 
-        <div className="h-[385px] w-[300px] md:h-[450px] md:w-[440px] md:hover:-translate-y-2 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] rounded-xl">
+        <div className="h-[385px] w-[300px] md:h-[450px] md:w-[440px]  md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] rounded-xl overflow-hidden ">
           <img
-            className="h-[160px] w-[400px] md:h-[250px] md:w-[500px] rounded-xl "
+            className="h-[160px] w-[400px] md:h-[250px] md:w-[500px] md:hover:scale-105 md:transition-all md:duration-500 "
             src={icons.taskmanagementapp}
             alt="taskmanagementapp"
           />
@@ -68,9 +68,9 @@ function Projects() {
 
         {/* project 2 : Weather app */}
 
-        <div className="h-[390px] w-[300px] md:h-[450px] md:w-[440px] md:hover:-translate-y-2 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] rounded-xl">
+        <div className="h-[390px] w-[300px] md:h-[450px] md:w-[440px] md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] rounded-xl overflow-hidden">
           <img
-            className="h-[160px] w-[400px] md:h-[250px] md:w-[500px] rounded-xl "
+            className="h-[160px] w-[400px] md:h-[250px] md:w-[500px] md:hover:scale-105 transition-all duration-500"
             src={icons.weatherapp}
             alt="taskmanagementapp"
           />
@@ -119,9 +119,9 @@ function Projects() {
 
         {/* project 3 : Calculator app */}
 
-        <div className="h-[370px] w-[300px] md:h-[450px] md:w-[440px] md:hover:-translate-y-2 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] rounded-xl">
+        <div className="h-[370px] w-[300px] md:h-[450px] md:w-[440px] md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] rounded-xl overflow-hidden">
           <img
-            className="h-[160px] w-[300px] md:h-[250px] md:w-[500px] rounded-xl "
+            className="h-[160px] w-[300px] md:h-[250px] md:w-[500px] md:hover:scale-105 transition-all duration-500 "
             src={icons.calculatorapp}
             alt="taskmanagementapp"
           />
@@ -167,9 +167,9 @@ function Projects() {
 
         {/* project 4 : portfolio app */}
 
-        <div className="h-[390px] w-[300px] md:hover:-translate-y-2 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 md:h-[450px] md:w-[440px] bg-[#1E293B] rounded-xl">
+        <div className="h-[390px] w-[300px] md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 md:h-[450px] md:w-[440px] bg-[#1E293B] rounded-xl overflow-hidden">
           <img
-            className="h-[160px] w-[300px] md:h-[250px] md:w-[500px] rounded-xl "
+            className="h-[160px] w-[300px] md:h-[250px] md:w-[500px] md:hover:scale-105 transition-all duration-500  "
             src={icons.portfolioapp}
             alt="taskmanagementapp"
           />
