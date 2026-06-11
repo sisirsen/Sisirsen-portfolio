@@ -14,7 +14,7 @@ function Projects() {
 
       {/* project 1 : Task manager app */}
 
-      <div className="mt-20 gap-8 flex justify-center  md:justify-normal flex-wrap">
+      <div className="mt-20 gap-8 flex justify-center  md:justify-between flex-wrap">
 
 
         <div className="h-[385px] w-[300px] md:h-[450px] md:w-[440px]  md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] rounded-xl overflow-hidden ">
