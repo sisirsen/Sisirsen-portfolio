@@ -96,7 +96,7 @@ function Contact() {
         </div>
 
         <form autoComplete="off" onSubmit={sendEmail} ref={formData}>
-          <div className="mt-15">
+          <div className="mt-12 rounded-3xl px-8 py-8 bg-black/30">
             <div>
               <label
                 className="text-white flex justify-center md:justify-normal font-bold"
@@ -105,7 +105,7 @@ function Contact() {
                 Your Name
               </label>
               <input
-                className="border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-full md:w-[600px] rounded-xl border-cyan-500"
+                className="border-2 mt-3 text-white bg-gray-800/40 shadow-2xl focus:border-cyan-500/50  p-2 outline-none h-[50px] w-full md:w-[600px] rounded-xl border-white/10 "
                 name="user_name"
                 id="user_name"
                 spellCheck="false"
@@ -123,7 +123,7 @@ function Contact() {
                 Your Email
               </label>
               <input
-                className="border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-full md:w-[600px] rounded-xl border-cyan-500 "
+                className="border-2 mt-3 text-white bg-gray-800/40 shadow-2xl focus:border-cyan-500/50 p-2 outline-none h-[50px] w-full md:w-[600px] rounded-xl border-white/10 "
                 name="user_email"
                 id="user_email"
                 type="email"
@@ -141,7 +141,7 @@ function Contact() {
                 Subject
               </label>
               <input
-                className="border-2 mt-3 text-white bg-gray-800 shadow-2xl  p-2 outline-none h-[50px] w-full md:w-[600px] rounded-xl border-cyan-500"
+                className="border-2 mt-3 text-white bg-gray-800/40 shadow-2xl focus:border-cyan-500/50  p-2 outline-none h-[50px] w-full md:w-[600px] rounded-xl border-white/10"
                 placeholder="Enter your subject"
                 name="user_subject"
                 id="user_subject"
@@ -159,7 +159,7 @@ function Contact() {
                 Message
               </label>
               <textarea
-                className="border-2 mt-3 text-white bg-gray-800 shadow-2xl focus:outline-none p-3 overflow-hidden outline-none h-[150px] w-full md:w-[600px] rounded-xl border-cyan-500"
+                className="border-2 mt-3 text-white bg-gray-800/40 shadow-2xl focus:border-cyan-500/50 p-3 overflow-hidden outline-none h-[150px] w-full md:w-[600px] rounded-xl border-white/10"
                 placeholder="Enter the message"
                 name="user_message"
                 id="user_message"

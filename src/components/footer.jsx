@@ -3,7 +3,7 @@ import { FiGithub,FiLinkedin, FiTwitter } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#05091A] text-white px-6 py-6">
+    <footer className="bg-[#05091A] text-white px-6 py-6 border-t border-white/10 ">
      
       <div className="flex px-6 py-4">
        
