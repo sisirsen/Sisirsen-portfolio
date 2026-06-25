@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import ScrollToTop from "./components/buttons/ScrollToTop";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <Projects />
 
       <Contact/>
+
+<ScrollToTop />
 
       <Footer />
     </>
