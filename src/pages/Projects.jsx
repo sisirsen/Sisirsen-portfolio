@@ -14,7 +14,7 @@ function Projects() {
 
       {/* project 1 : Task manager app */}
 
-      <div className="mt-20 gap-8 flex justify-center  md:justify-between flex-wrap">
+      <div className="mt-20 gap-8 flex flex-wrap">
 
 
         <div className="h-[385px] w-[300px] md:h-[450px] md:w-[440px]  md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 bg-[#1E293B] rounded-xl overflow-hidden ">
@@ -211,6 +211,54 @@ function Projects() {
             </a>
           </div>
         </div>
+
+        {/* crypto app */}
+
+        <div className="h-[390px] w-[300px] md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500 md:h-[450px] md:w-[440px] bg-[#1E293B] rounded-xl overflow-hidden">
+          <img
+            className="h-[160px] w-[300px] md:h-[250px] md:w-[500px] md:hover:scale-105 transition-all duration-500  "
+            src={icons.crypto}
+            alt="crotp"
+          />
+          <div className="mt-4 pl-3 md:pl-5">
+            <span className="text-white font-bold text-xl">
+              Crypto Dashboard
+            </span>
+
+            <span className="flex mt-3 text-gray-300 ">
+              It is a crypto currency dashboard, its made for tracking live data and market of crypto.
+            </span>
+
+            <div className="mt-4 flex gap-2 ">
+              <span className="py-1 px-3 flex items-center text-sm bg-slate-600 font-bold text-gray-200 rounded-2xl">
+                Tailwind CSS
+              </span>
+              <span className="py-1 px-3 flex items-center text-sm bg-slate-600 font-bold text-gray-200 rounded-2xl">
+                React Js
+              </span>
+            </div>
+          </div>
+          <div className="mt-4 pl-4 md:pl-7 flex gap-4">
+            <a
+              href="https://nexora-silk-mu.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan-400 flex items-center gap-1 text-md font-extrabold md:hover:text-purple-500  transition duration-200"
+            >
+              <FiExternalLink /> <span>Live Link</span>
+            </a>
+
+            <a
+              href="https://github.com/sisirsen/Nexora"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan-400 flex items-center gap-1 text-md font-extrabold md:hover:text-purple-500  transition duration-200"
+            >
+              <FiGithub /> <span>Code</span>
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   );

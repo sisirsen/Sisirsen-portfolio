@@ -22,8 +22,9 @@ import calculatorapp from './icon/calculator.jpg';
 import portfolioapp from './icon/portfolio.jpg';
 import livelink from './icon/livelink.png'
 import uparrow from './icon/up-arrow.png'
+import crypto from './icon/crypto.webp'
 
 export default {
 
-  menuButton, linkedinButton, xButton, MyImage, html, tailwind, js, react, java,git, figma, vercel, vscode, github, communication, teamwork, problemsolving, panctuality,taskmanagementapp, weatherapp, calculatorapp, portfolioapp,livelink,uparrow
+  menuButton, linkedinButton, xButton, MyImage, html, tailwind, js, react, java,git, figma, vercel, vscode, github, communication, teamwork, problemsolving, panctuality,taskmanagementapp, weatherapp, calculatorapp, portfolioapp,livelink,uparrow,crypto
 };
