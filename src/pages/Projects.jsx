@@ -31,7 +31,7 @@ function Projects() {
       "Crypto Calender"
     ],
 
-    live: "https://nexora-silk-mu.vercel.app/",
+    live: "https://nexora-psi-gilt.vercel.app/",
     github: "https://github.com/sisirsen/Nexora",
   },
   {

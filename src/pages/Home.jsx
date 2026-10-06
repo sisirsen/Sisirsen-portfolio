@@ -13,7 +13,7 @@ function Home() {
       <div>
         <div className="flex justify-center md:justify-normal items-center gap-2 py-2 rounded-full text-green-400 text-sm font-medium">
     <span className="h-2 w-2 rounded-full bg-green-400 animate-pulse"></span>
-    Available for Work
+    Available for Opprtunities
 </div>
         <div className="text-white flex justify-center md:justify-normal gap-3 text-4xl md:text-6xl font-extrabold flex-wrap">
           <span>Hi, I'm</span>
@@ -23,17 +23,12 @@ function Home() {
           </div>
         </div>
 
-        {/* <h1 className="text-6xl font-bold">
-  Hi, I'm{" "}
-  <span className="shine-text">
-    SISIR
-  </span>
-</h1> */}
+       
 
 
         <div className="mt-6 flex justify-center md:justify-normal">
           <TypeAnimation
-            sequence={["Frontend Developer", 1000, "React Developer", 1000, "Python Developer", 1000, "Django Developer", 1000]}
+            sequence={["Frontend Developer", 1000, "React Developer", 1000, "FastAPI Developer", 1000, "Full Stack Developer", 1000]}
             wrapper="span"
             speed={40}
             repeat={Infinity}
@@ -43,7 +38,7 @@ function Home() {
 
         <div className="text-gray-400 mt-5 pl-4 md:pl-0 text-sm md:text-md text-center mx-auto md:text-left max-w-lg">
           <span>
-           I build modern, scalable, and responsive web applications using React, JavaScript, Django REST Framework, and REST APIs with a focus on clean UI, performance, and maintainable code.
+           I build modern, scalable, and responsive web applications using React, JavaScript, FastAPI, and REST APIs with a focus on clean UI, performance, and maintainable code.
           </span>
         </div>
 
@@ -93,7 +88,7 @@ function Home() {
         </div>
 
        <div className="flex flex-wrap justify-center md:justify-normal gap-3 mt-8">
-  {["React", "JavaScript", "Django REST",].map((tech) => (
+  {["React", "JavaScript", "FastAPI",].map((tech) => (
     <span
       key={tech}
       className="px-4 py-2 rounded-xl border border-cyan-800 bg-slate-800/50 text-sm text-gray-300 hover:border-green-500 hover:text-cyan-500 transition-all duration-300 cursor-default"
@@ -104,13 +99,7 @@ function Home() {
 </div>
       </div>
 
-      {/* <div className="flex justify-center md:flex md:justify-normal ">
-        <img
-         
-          src={icons.MyImage}
-          alt="image"
-        />
-      </div> */}
+      
 
       <motion.div
   animate={{

@@ -1,6 +1,6 @@
 import React from "react";
 import icons from "../utils/iconAccess";
-import { SiPython, SiDjango, SiPostman } from "react-icons/si";
+import { SiPython, SiFastapi, SiPostman } from "react-icons/si";
 import {
   FaUsers,
   FaPuzzlePiece,
@@ -75,8 +75,8 @@ const tools = [
   },
   {
     id: 6,
-    icon: SiDjango,
-    title: "Django",
+    icon: SiFastapi,
+    title: "FastAPI",
   },
   {
     id: 7,
