@@ -1,7 +1,6 @@
 import React from "react";
-import { FaCheckCircle } from "react-icons/fa";
-import { HiOutlineDownload } from "react-icons/hi";
-import Resume from '../assets/Resume.pdf'
+import frontEndResume from '../assets/Cv-Sisir Sen(F).pdf'
+import fullStackResume from '../assets/Cv-SisirSen(FS).pdf'
 
 function About() {
   const about = [
@@ -15,7 +14,7 @@ function About() {
   },
   {
     id: 3,
-    text: "Currently building REST APIs using Python and Django REST Framework.",
+    text: "Currently building REST APIs using Python and FastAPI.",
   },
   {
     id: 4,
@@ -80,19 +79,27 @@ duration-300 `}
 </div>
         </div>
 
-        <div className="flex justify-center mt-12 gap-8 md:gap-40">
-          <a 
-          href={Resume}
-          download="Sisir_Sen_Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="py-3 px-5 flex items-center justify-center cursor-pointer font-bold text-gray-200 bg-gradient-to-r from-blue-600 to-purple-600 active:from-purple-800 active:to-blue-800 rounded-3xl md:hover:-translate-y-1 md:ease-in-out md:hover:shadow-[0_20px_18px_rgb(255,255,255,0.1)] md:transition-all md:hover:duration-500">
-            Resume <HiOutlineDownload className="h-5 w-5"/>
-          </a>
-          <a href="#contact" className="text-cyan-400 flex justify-center items-center border-2 cursor-pointer active:bg-gray-800 md:hover:bg-gray-800 h-[50px] w-[120px] transition-all duration-200 rounded-3xl">
-            Connect
-          </a>
-        </div>
+        <div className="flex flex-wrap justify-center gap-4">
+  {/* Frontend Resume */}
+  <a
+    href={frontEndResume}
+    download="Sisir-Sen-Frontend-Resume.pdf"
+    className="inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20"
+  >
+    Frontend Resume
+    <span className="ml-2">↓</span>
+  </a>
+
+  {/* Full Stack Resume */}
+  <a
+    href={fullStackResume}
+    download="Sisir-Sen-Full-Stack-Resume.pdf"
+    className="inline-flex items-center justify-center rounded-xl border border-cyan-400/50 bg-cyan-400/5 px-6 py-3 font-semibold text-cyan-400 transition-all duration-300 hover:scale-105 hover:bg-cyan-400/10 hover:shadow-lg hover:shadow-cyan-400/10"
+  >
+    Full Stack Resume
+    <span className="ml-2">↓</span>
+  </a>
+</div>
       </div>
     </div>
   );
